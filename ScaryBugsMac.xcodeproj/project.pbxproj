@@ -13,6 +13,8 @@
 		1658483A1A2114650024EB0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165848391A2114650024EB0E /* Images.xcassets */; };
 		1658483D1A2114650024EB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1658483B1A2114650024EB0E /* Main.storyboard */; };
 		165848491A2114650024EB0E /* ScaryBugsMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165848481A2114650024EB0E /* ScaryBugsMacTests.m */; };
+		165848551A2115650024EB0E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165848531A2115650024EB0E /* MasterViewController.m */; };
+		165848561A2115650024EB0E /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 165848541A2115650024EB0E /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		165848421A2114650024EB0E /* ScaryBugsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		165848471A2114650024EB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165848481A2114650024EB0E /* ScaryBugsMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsMacTests.m; sourceTree = "<group>"; };
+		165848521A2115650024EB0E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		165848531A2115650024EB0E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		165848541A2115650024EB0E /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 		165848231A2114650024EB0E = {
 			isa = PBXGroup;
 			children = (
+				165848521A2115650024EB0E /* MasterViewController.h */,
+				165848531A2115650024EB0E /* MasterViewController.m */,
+				165848541A2115650024EB0E /* MasterViewController.xib */,
 				1658482E1A2114650024EB0E /* ScaryBugsMac */,
 				165848451A2114650024EB0E /* ScaryBugsMacTests */,
 				1658482D1A2114650024EB0E /* Products */,
@@ -198,6 +206,7 @@
 			files = (
 				1658483A1A2114650024EB0E /* Images.xcassets in Resources */,
 				1658483D1A2114650024EB0E /* Main.storyboard in Resources */,
+				165848561A2115650024EB0E /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165848551A2115650024EB0E /* MasterViewController.m in Sources */,
 				165848381A2114650024EB0E /* ViewController.m in Sources */,
 				165848351A2114650024EB0E /* main.m in Sources */,
 				165848331A2114650024EB0E /* AppDelegate.m in Sources */,
